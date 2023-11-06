@@ -25,6 +25,13 @@ html, body {
     max-width: 220px;
 }
 
+.ronald {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 4em;
+    border-radius: 50%;
+}
+
 li {
     background-color: white;
     border-radius: 5px;
@@ -56,6 +63,10 @@ code {
 
 /* Header */
 
+.site-header {
+    padding-top: 2em;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
@@ -65,7 +76,8 @@ code {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 0em 3em 0em 0;
+    margin-left: 2em;
 }
 
 @media (max-width: 1800px) {
@@ -111,6 +123,7 @@ code {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid white;
+    padding-bottom: 30px;
 }
 
 
