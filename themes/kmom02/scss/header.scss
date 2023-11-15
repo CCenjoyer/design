@@ -1,0 +1,35 @@
+/* Header */
+
+.header,
+.site-header {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    flex: 0 0 auto;
+    min-width: 735px;
+}
+
+.logo {
+    max-width: 220px;
+}
+
+/* Title */
+
+.title,
+.logo {
+    margin-left: 2em;
+    padding: 0 3em 0 0;
+}
+
+.title * {
+    color: rgb(50, 50, 50);
+}
+
+.titlename {
+    font-family: $title-font;
+    font-size: 3em;
+    width: static;
+}

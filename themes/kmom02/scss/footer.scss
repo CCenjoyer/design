@@ -1,0 +1,32 @@
+/* Footer */
+
+.footer {
+    border-top: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 1em;
+    width: 400px;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.footertext {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}

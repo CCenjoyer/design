@@ -1,0 +1,54 @@
+.main {
+    border-top: rgb(255, 255, 255) solid 3px;
+    flex: 1 0 auto;
+    min-width: 700px;
+    padding-bottom: 4em;
+    padding-left: 18em;
+    padding-right: 18em;
+    padding-top: 5em;
+}
+
+* {
+    border: 0 none;
+    box-sizing: border-box;
+    color: rgb(208, 208, 208);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: $paragraph-font;
+}
+
+body {
+    background-color: $background-color;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    overflow-wrap: break-word;
+    text-align: justify;
+    word-wrap: break-word;
+}
