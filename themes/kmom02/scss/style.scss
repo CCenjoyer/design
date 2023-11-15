@@ -7,7 +7,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 
 @import 'variables';
-@import 'header';
 @import 'headings';
 @import 'footer';
 @import 'main';
@@ -15,6 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'responsive';
 @import 'images';
+@import 'header';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');

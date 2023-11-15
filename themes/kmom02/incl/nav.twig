@@ -9,7 +9,7 @@
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
-                <h1 id = "titlename">{{ site_title }}</h1>
+                <h1 class = "titlename">{{ site_title }}</h1>
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
