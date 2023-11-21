@@ -6472,7 +6472,6 @@ h2 {
 }
 
 .main {
-  border-top: rgb(255, 255, 255) solid 3px;
   flex: 1 0 auto;
   min-width: 700px;
   padding-bottom: 4em;
@@ -6549,6 +6548,8 @@ pre {
   background: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 0.3em;
+  margin-bottom: 2em;
+  margin-top: 2em;
   padding: 0 1em;
 }
 
@@ -6607,6 +6608,7 @@ img {
 }
 
 .header {
+  border-bottom: rgb(255, 255, 255) solid 3px;
   flex: 0 0 auto;
   min-width: 735px;
 }
@@ -6624,10 +6626,77 @@ img {
 
 .title * {
   color: rgb(50, 50, 50);
+  white-space: nowrap;
 }
 
 .titlename {
   font-family: "Great Vibes", serif;
   font-size: 3em;
   width: static;
+}
+
+.landingpage {
+  display: grid;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.wide3 {
+  grid-column: span 3;
+}
+
+.wide2 {
+  grid-column: span 2;
+}
+
+.box {
+  background-color: rgb(184, 184, 184);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 0.5em;
+  height: 7em;
+}
+
+.box a {
+  color: #3d5a80;
+  padding-left: 1em;
+}
+
+.technology-page {
+  display: grid;
+  gap: 2em 2em;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.technology-page pre {
+  grid-column: span 2;
+}
+
+.technology-page h1 {
+  grid-column: span 2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.technology-page p {
+  grid-column: 2;
+}
+
+.technology-nav {
+  font-size: 0.8em;
+  width: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+  .technology-nav {
+    display: none;
+  }
 }

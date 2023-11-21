@@ -8,6 +8,7 @@
 }
 
 .header {
+    border-bottom: rgb(255, 255, 255) solid 3px;
     flex: 0 0 auto;
     min-width: 735px;
 }
@@ -26,6 +27,7 @@
 
 .title * {
     color: rgb(50, 50, 50);
+    white-space: nowrap;
 }
 
 .titlename {
