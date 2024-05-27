@@ -2,6 +2,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Slab:wght@300&display=swap");
 .fa,
@@ -6428,7 +6429,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   margin-bottom: 0.3em;
   padding-top: 3em;
@@ -6445,7 +6446,7 @@ p {
 
 /* Footer */
 .footer {
-  border-top: 1px solid #d3ff98;
+  border-top: 1px solid #ffffff;
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
@@ -6471,7 +6472,7 @@ footer .social a {
 
 .footertext {
   margin: auto;
-  color: #252525;
+  color: #dbdbdb;
   text-align: center;
   width: 100%;
   padding-bottom: 2em;
@@ -6498,7 +6499,7 @@ footer .social a {
 }
 
 .main {
-  color: #252525;
+  color: #dbdbdb;
   width: 60%;
   min-height: 800px;
   min-width: 700px;
@@ -6516,7 +6517,7 @@ footer .social a {
 }
 
 p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 body {
@@ -6552,7 +6553,7 @@ dd {
 }
 
 a {
-  color: rgb(110, 0, 110);
+  color: rgb(235, 216, 109);
 }
 
 blockquote {
@@ -6636,13 +6637,13 @@ img {
 /* Header */
 .header,
 .site-header {
-  background-color: #5c5c5c;
+  background-color: #585858;
   display: flex;
   justify-content: space-between;
 }
 
 .header {
-  border-bottom: 3px solid #d3ff98;
+  border-bottom: 3px solid #ffffff;
   flex: 0 0 auto;
   min-width: 735px;
 }
@@ -6697,7 +6698,7 @@ img {
 }
 
 .box {
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(129, 129, 129);
   border: 2px solid rgb(255, 255, 255);
   border-radius: 0.5em;
   height: 7em;
@@ -6708,7 +6709,7 @@ img {
 }
 
 .box a {
-  color: rgb(110, 0, 110);
+  color: rgb(235, 216, 109);
   padding-left: 1em;
 }
 
@@ -6751,5 +6752,5 @@ img {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #272727;
 }

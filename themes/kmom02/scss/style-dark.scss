@@ -6,7 +6,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'headings';
 @import 'footer';
 @import 'main';
@@ -22,5 +22,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Slab:wght@300&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #272727;
 }

@@ -2,18 +2,19 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
-        <div class="technology-page">
-        <div class = "technology-nav">
-        <h2>Technologies:</h2>
-            {% for page in pages("technology") %}
-                <div class="technologies">
-                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>                   
+    <div class="main-container">
+        <div class="main" role="main">
+            <div class="technology-page">
+                <div class = "technology-nav">
+                    <h2>Technologies:</h2>
+                    {% for page in pages("technology") %}
+                        <div class="technologies">
+                            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>                   
+                        </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
-        </div>
-
-            {{ content }}
+                {{ content }}
+            </div>
         </div>
     </div>
 

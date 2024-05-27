@@ -1,4 +1,4 @@
-<div class="container">
+<footer>
     <div class="social">
         {% for social in pages["_meta"].meta.social %}
             <a href="{{ social.url }}" title="{{ social.title }}" role="button">
@@ -6,8 +6,8 @@
                 <span class="sr-only">{{ social.title }}</span>
             </a>
         {% endfor %}
+        <p class = "footertext">
+            © josf23.
+        </p>
     </div>
-    <p class = "footertext">
-        En footer med lite text.
-    </p>
-</div>
+</footer>

@@ -2,15 +2,19 @@
 
 .header,
 .site-header {
-    background-color: rgb(184, 184, 184);
+    background-color: $background-alternative-color;
     display: flex;
     justify-content: space-between;
 }
 
 .header {
-    border-bottom: rgb(255, 255, 255) solid 3px;
+    border-bottom: 3px solid $accent-color;
     flex: 0 0 auto;
     min-width: 735px;
+}
+
+#nav {
+    font-size: 23px;
 }
 
 .logo {
@@ -26,7 +30,7 @@
 }
 
 .title * {
-    color: rgb(50, 50, 50);
+    color: $white-color;
     white-space: nowrap;
 }
 
