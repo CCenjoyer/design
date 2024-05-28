@@ -13,12 +13,13 @@
     min-width: 735px;
 }
 
-#nav {
+.nav {
     font-size: 23px;
 }
 
 .logo {
     max-width: 220px;
+    min-width: 150px;
 }
 
 /* Title */
@@ -26,7 +27,7 @@
 .title,
 .logo {
     margin-left: 2em;
-    padding: 0 3em 0 0;
+    padding: 0 2em 0 0;
 }
 
 .title * {
@@ -38,4 +39,8 @@
     font-family: $title-font;
     font-size: 3em;
     width: static;
+}
+
+.nav a {
+    color: $highlight;
 }

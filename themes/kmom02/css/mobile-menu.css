@@ -22,7 +22,7 @@
     display: none;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1230px) {
     .header {
         flex-direction: column;
     }

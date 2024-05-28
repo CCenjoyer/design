@@ -15,5 +15,5 @@ About
 <br>
 <p>Typsnittet som används inom paragrafer heter <em>Roboto Slab</em> och titel-fonten <em>Great Vibes</em>.</p>
 <br>
-
+<p>Det mörka temat är monokromatiskt med basen gul och använder sig av en font som heter "Josefin Sans".</p>
 
