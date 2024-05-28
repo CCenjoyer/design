@@ -3,8 +3,8 @@ Logo: image/favicon.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      url: https://github.com/CCenjoyer/design
+      icon: fab fa-github
     - title: Dark Mode
       url: ?action=theme
       icon: fas fa-moon

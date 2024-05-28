@@ -6,6 +6,8 @@
 }
 
 .main {
+    background-color: $main-color;
+    border-radius: 0.5em;
     color: $font-color;
     min-height: 800px;
     min-width: 700px;

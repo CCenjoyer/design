@@ -6497,6 +6497,8 @@ footer .social a {
 }
 
 .main {
+  background-color: #fbfbfb;
+  border-radius: 0.5em;
   color: #252525;
   min-height: 800px;
   min-width: 700px;
