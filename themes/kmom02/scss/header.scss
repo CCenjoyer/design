@@ -10,7 +10,7 @@
 .header {
     border-bottom: 3px solid $accent-color;
     flex: 0 0 auto;
-    min-width: 735px;
+    width: 100%;
 }
 
 .nav {
@@ -19,7 +19,7 @@
 
 .logo {
     max-width: 220px;
-    min-width: 150px;
+    min-width: 50px;
 }
 
 /* Title */

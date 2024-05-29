@@ -53,7 +53,7 @@ Analys
 -----------------------
 
 ## AftonBladet
-<img src="%assets_url%/img/aftonbladet.png" alt="AftonBladet" width="400">
+<img src="%assets_url%/img/analysis/aftonbladet.png" alt="AftonBladet" width="400">
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #dd2a30">
@@ -80,7 +80,7 @@ Precis som förväntat av en nyhetssaajt så är dess <em>headlines</em> i stör
 
 
 ## SVT
-<img src="%assets_url%/img/svt.png" alt="SVT" width="400">
+<img src="%assets_url%/img/analysis/svt.png" alt="SVT" width="400">
 
 #### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black">
@@ -109,7 +109,7 @@ utan att bli överväldigad.
 
 
 ## Expressen
-<img src="%assets_url%/img/expressen.png" alt="Expressen" width="400">
+<img src="%assets_url%/img/analysis/expressen.png" alt="Expressen" width="400">
 
 #### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">

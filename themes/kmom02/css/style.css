@@ -6493,15 +6493,13 @@ footer .social a {
   display: flex;
   justify-content: center;
   margin-top: 3em;
-  min-width: 700px;
 }
 
 .main {
-  background-color: #fbfbfb;
+  background-color: #f3f3f3;
   border-radius: 0.5em;
   color: #252525;
   min-height: 800px;
-  min-width: 700px;
   padding-bottom: 4em;
   padding-left: 2em;
   padding-right: 2em;
@@ -6629,8 +6627,8 @@ pre code {
   width: 300px;
 }
 
-img {
-  max-width: 100%;
+img, embed, object, video {
+  width: 100%;
 }
 
 /* Header */
@@ -6644,7 +6642,7 @@ img {
 .header {
   border-bottom: 3px solid #d3ff98;
   flex: 0 0 auto;
-  min-width: 735px;
+  width: 100%;
 }
 
 .nav {
@@ -6653,7 +6651,7 @@ img {
 
 .logo {
   max-width: 220px;
-  min-width: 150px;
+  min-width: 50px;
 }
 
 /* Title */
@@ -6750,6 +6748,21 @@ img {
     display: none;
   }
 }
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery picture {
+  width: 49%;
+}
+
+.gallery img,
+.gallery source {
+  width: 100%;
+}
+
 body {
   background-color: rgb(255, 255, 255);
 }

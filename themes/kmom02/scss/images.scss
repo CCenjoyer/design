@@ -7,6 +7,6 @@
     width: 300px;
 }
 
-img {
-    max-width: 100%;
+img, embed, object, video {
+    width: 100%;
 }
