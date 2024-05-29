@@ -53,7 +53,7 @@ Analys
 -----------------------
 
 ## AftonBladet
-<img src="%assets_url%/img/analysis/aftonbladet.png" alt="AftonBladet" width="400">
+<img src="%assets_url%/img/analysis/aftonbladet.png" class="snapshot" alt="AftonBladet" width="400">
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #dd2a30">
@@ -74,13 +74,13 @@ deras tidningar som har samma tema och jag förmodar att tanken är att man ska 
 Accentfärgerna som används är en stark röd samt en stark gul som hjälper elementen som tar användning av dem att verkligen <em>"sticka ut"</em>. 
 
 Röd för att uppmärksamma viktig information/element är någonting som är vanligt inom nyhetssidor, vilket vi också kan se i följande analyser. Och gul är en färg som inte
-ofta ses, speciellt inte en såpass stark gul som detta. Vilket då hjälper med identieten.
+ofta ses, speciellt inte en såpass stark gul som detta. Vilket då hjälper med att bygga identitet.
 
 Precis som förväntat av en nyhetssaajt så är dess <em>headlines</em> i större font med mer style givet till dem.
 
 
 ## SVT
-<img src="%assets_url%/img/analysis/svt.png" alt="SVT" width="400">
+<img src="%assets_url%/img/analysis/svt.png" class="snapshot" alt="SVT" width="400">
 
 #### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black">
@@ -109,7 +109,7 @@ utan att bli överväldigad.
 
 
 ## Expressen
-<img src="%assets_url%/img/analysis/expressen.png" alt="Expressen" width="400">
+<img src="%assets_url%/img/analysis/expressen.png" class="snapshot" alt="Expressen" width="400">
 
 #### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">
@@ -144,12 +144,18 @@ Referenser
 -----------------------
 
 <!-- Ange de eventuella referenser du använder dig av, om några. -->
-<ul>
-<li><a href="https://color.a11y.com/">color.a11y</a></li>
-<li><a href="https://www.svt.se/">SVT</a></li>
-<li><a href="https://www.expressen.se/">Expressen</a></li>
-<li><a href="https://www.aftonbladet.se/">AftonBladet</a></li>
 
+<h4>Verktyg:</h4>
+<ul>
+    <li><a href="https://color.a11y.com/">color.a11y</a></li>
+</ul>
+
+
+<h4>Webbsidor:</h4>
+<ul>
+    <li><a href="https://www.svt.se/">SVT</a></li>
+    <li><a href="https://www.expressen.se/">Expressen</a></li>
+    <li><a href="https://www.aftonbladet.se/">AftonBladet</a></li>
 </ul>
 Övrigt
 -----------------------

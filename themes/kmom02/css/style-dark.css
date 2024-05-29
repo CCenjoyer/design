@@ -6664,6 +6664,10 @@ video {
   width: 300px;
 }
 
+.snapshot {
+  width: 50%;
+}
+
 /* Header */
 .header,
 .site-header {
@@ -6683,7 +6687,7 @@ video {
 }
 
 .logo {
-  width: 220px;
+  width: 200px;
 }
 
 /* Title */

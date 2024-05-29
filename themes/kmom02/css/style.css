@@ -6469,7 +6469,7 @@ footer .social a {
 }
 
 .footertext {
-  color: #252525;
+  color: #141414;
   margin: auto;
   padding-bottom: 2em;
   text-align: center;
@@ -6500,7 +6500,7 @@ footer .social a {
 .main {
   background-color: #f3f3f3;
   border-radius: 0.5em;
-  color: #252525;
+  color: #141414;
   min-height: 800px;
   padding-bottom: 4em;
   padding-left: 2em;
@@ -6563,7 +6563,7 @@ blockquote {
 }
 
 code {
-  background: #f5f5f5;
+  background: #fff;
   border: 1px solid #ccc;
   border-radius: 0.3em;
   color: rgb(58, 58, 58);
@@ -6575,7 +6575,7 @@ code {
 }
 
 pre {
-  background: #f5f5f5;
+  background: #fff;
   border: 1px solid #ccc;
   border-radius: 0.3em;
   margin-bottom: 2em;
@@ -6663,6 +6663,10 @@ video {
   width: 300px;
 }
 
+.snapshot {
+  width: 50%;
+}
+
 .embed-container {
   height: 0;
   max-width: 100%;
@@ -6684,7 +6688,7 @@ video {
 /* Header */
 .header,
 .site-header {
-  background-color: #868686;
+  background-color: #646464;
   display: flex;
   justify-content: space-between;
 }
@@ -6700,7 +6704,7 @@ video {
 }
 
 .logo {
-  width: 220px;
+  width: 200px;
 }
 
 /* Title */
@@ -6831,6 +6835,12 @@ video {
 
 .embed-container {
   margin-top: 25%;
+}
+
+.excel-arch {
+  height: 330px;
+  margin-top: 1.5em;
+  width: 100%;
 }
 
 body {
