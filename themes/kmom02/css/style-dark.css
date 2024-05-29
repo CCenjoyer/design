@@ -6493,7 +6493,9 @@ footer .social a {
 .main-container {
   display: flex;
   justify-content: center;
+  margin: auto;
   margin-top: 3em;
+  width: 100%;
 }
 
 .main {
@@ -6596,19 +6598,25 @@ pre code {
   .main {
     padding-left: 1.5em;
     padding-right: 1.5em;
+    width: 70%;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
+  .main {
+    width: 85%;
+  }
+}
+@media (max-width: 1200px) {
   .main {
     padding-left: 1em;
     padding-right: 1em;
-    width: 100%;
-  }
-  .main-container {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 767px) {
+  .main {
+    width: 98%;
+  }
   .title,
   .logo {
     padding: 1em 1em 1em 0;
@@ -6617,19 +6625,43 @@ pre code {
     min-width: 50%;
   }
   .logo {
-    max-width: 30%;
+    display: none;
+  }
+  .embed-container {
+    margin-top: 100%;
   }
 }
 /* Placement */
+.embed-container {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.embed-container embed,
+.embed-container iframe,
+.embed-container object {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+img,
+embed,
+object,
+video {
+  width: 100%;
+}
+
 .ronald {
   border-radius: 50%;
   margin-left: 2em;
   margin-top: 4em;
   width: 300px;
-}
-
-img, embed, object, video {
-  width: 100%;
 }
 
 /* Header */
@@ -6651,8 +6683,7 @@ img, embed, object, video {
 }
 
 .logo {
-  max-width: 220px;
-  min-width: 50px;
+  width: 220px;
 }
 
 /* Title */

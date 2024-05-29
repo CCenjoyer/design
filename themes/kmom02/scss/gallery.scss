@@ -1,14 +1,38 @@
 .gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    gap: 2%;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 3em;
 }
 
-.gallery picture {
-    width: 49%;
+@media (max-width: 1150px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery picture {
+        margin-bottom: 5%;
+    }
 }
 
 .gallery img,
 .gallery source {
+    height: auto;
     width: 100%;
+}
+
+.gallery picture {
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.embed-container {
+    margin-top: 25%;
 }

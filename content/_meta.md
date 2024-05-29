@@ -1,5 +1,5 @@
 ---
-Logo: image/favicon.png
+Logo: image/favicon.png?w=200
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
