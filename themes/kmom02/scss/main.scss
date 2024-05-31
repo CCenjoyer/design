@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 3em;
+    margin-top: 15em;
     width: 100%;
 }
 
 .main {
     background-color: $main-color;
     border-radius: 0.5em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     color: $font-color;
     min-height: 800px;
     padding-bottom: 4em;
@@ -28,6 +29,7 @@
 a {
     color: $link-color;
 }
+
 
 body {
     display: flex;

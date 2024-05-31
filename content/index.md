@@ -6,6 +6,8 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Denna sida är gjord i samband med Designkursen på dbwebb av josf23.
 
-This is a sample home page written in markdown with some frontmatter defined.
+<div class="ronald-container">
+    <img src="%assets_url%/img/ronaldbyline.jpg" alt="ronald" class="rounded">
+</div>

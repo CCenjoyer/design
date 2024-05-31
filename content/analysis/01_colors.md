@@ -53,7 +53,10 @@ Analys
 -----------------------
 
 ## AftonBladet
+
 <img src="%assets_url%/img/analysis/aftonbladet.png" class="snapshot" alt="AftonBladet" width="400">
+
+### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #dd2a30">
@@ -82,7 +85,7 @@ Precis som förväntat av en nyhetssaajt så är dess <em>headlines</em> i stör
 ## SVT
 <img src="%assets_url%/img/analysis/svt.png" class="snapshot" alt="SVT" width="400">
 
-#### Färger:
+### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #fff">
@@ -111,7 +114,7 @@ utan att bli överväldigad.
 ## Expressen
 <img src="%assets_url%/img/analysis/expressen.png" class="snapshot" alt="Expressen" width="400">
 
-#### Färger:
+### Färger:
 <table style="border-spacing: 4px; border-collapse: separate; border: 1px solid black;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #eb0000">
@@ -145,13 +148,13 @@ Referenser
 
 <!-- Ange de eventuella referenser du använder dig av, om några. -->
 
-<h4>Verktyg:</h4>
+<h3>Verktyg:</h3>
 <ul>
     <li><a href="https://color.a11y.com/">color.a11y</a></li>
 </ul>
 
 
-<h4>Webbsidor:</h4>
+<h3>Webbsidor:</h3>
 <ul>
     <li><a href="https://www.svt.se/">SVT</a></li>
     <li><a href="https://www.expressen.se/">Expressen</a></li>

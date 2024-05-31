@@ -6605,6 +6605,9 @@ pre code {
   .main {
     width: 85%;
   }
+  .logo {
+    display: none;
+  }
 }
 @media (max-width: 1200px) {
   .main {
@@ -6623,9 +6626,6 @@ pre code {
   }
   .title {
     min-width: 50%;
-  }
-  .logo {
-    display: none;
   }
   .embed-container {
     margin-top: 100%;
@@ -6682,8 +6682,13 @@ video {
   width: 100%;
 }
 
-.nav {
+.nav.hidden {
+  display: none;
+}
+
+.nav ul li a {
   font-size: 23px;
+  text-decoration: none;
 }
 
 .logo {
@@ -6710,6 +6715,10 @@ video {
 
 .nav a {
   color: #f5ec60;
+}
+
+.active {
+  text-decoration: #f5ec60 underline;
 }
 
 .box {

@@ -22,6 +22,10 @@ img,
 embed,
 object,
 video {
+    background-color: $font-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
     width: 100%;
 }
 
@@ -34,4 +38,9 @@ video {
 
 .snapshot {
     width: 50%;
+}
+
+.ronald-container {
+    padding-top: 3em;
+    width: 300px;
 }

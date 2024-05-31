@@ -14,7 +14,7 @@ Efter att ha genomfört analysen för varje webbplats sammanfattas resultaten oc
 Urval
 -----------------------
 
-De webbplatser som valts ut för denna analys är:
+Webplatserna som valts ut för denna analys är:
 
 1. [Mazda](https://www.mazda.se/)
 2. [Volkswagen](https://www.volkswagen.se/)
@@ -54,7 +54,7 @@ Resursanvändning: Genomsnittliga överförda resursmängder och totala resursst
 Webbplatsstruktur: Antalet förfrågningar varierar också mellan webbplatserna, vilket tyder på olika komplexitetsnivåer i webbplatsstrukturen. Det kan finnas möjligheter att förenkla och effektivisera webbplatsstrukturen för att minska antalet förfrågningar och förbättra prestandan.
 
 
-#### Sammafattningsvis:
+### Sammafattningsvis:
 
 Baserat på analyserna av Mazda, BMW och Volkswagens webbplatser, är det svårt att utse en klar vinnare bland dem. Valet beror helt på vilka kriterier som man tycker bör prioriteras vid bedömningen av sidorna. Alla tre har områden som kan förbättras och kräver uppmärksamhet, men överlag är alla sidorna välgjorda. Prestandaoptimering, tillgänglighet, bästa praxis och SEO är alla områden där det finns utrymme för förbättringar. Men det är tydligt att alla tre varumärkena lägger stor vikt vid att erbjuda en god användarupplevelse online.
 
@@ -63,7 +63,7 @@ Analys
 
 För alla sidor jämfördes startsidan utan att interagera med något innehåll.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLlY4t6CkvFWu5K-iK5eL8w7zUMdm2Z4GQXr4GG8yFUOm7SeqXM1MtD52X8-XJkdH-ch0tgJE4-brp/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="excel-arch"></iframe>
+<iframe title="kmom05-analysis" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLlY4t6CkvFWu5K-iK5eL8w7zUMdm2Z4GQXr4GG8yFUOm7SeqXM1MtD52X8-XJkdH-ch0tgJE4-brp/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="excel-arch"></iframe>
 
 
 ## Mazda
@@ -129,13 +129,13 @@ på mobil, 37, vilket tyder på en väloptimerad webbplatsstruktur.
 Referenser
 -----------------------
 
-<h4>Verktyg:</h4>
+<h3>Verktyg:</h3>
 <ul>
     <li><a href="https://pagespeed.web.dev/">Page Speed</a></li>
     <li>Brave Devtools</li>
 </ul>
 
-<h4>Webbsidor:</h4>
+<h3>Webbsidor:</h3>
 <ul>
     <li><a href="https://www.mazda.se/">Mazda</a></li>
     <li><a href="https://www.volkswagen.se/">VolksWagen</a></li>

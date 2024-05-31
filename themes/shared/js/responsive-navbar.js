@@ -56,7 +56,7 @@ function main()
         },
         onResizeEvent = function () {
             if (utils.isElementVisible(menuToggle)) {
-                menu.className = 'hidden';
+                // menu.className = 'hidden';
                 navIcon.className = 'fa fa-bars';
                 menuToggle.addEventListener('click', toggleMenuEvent);
                 menuToggle.addEventListener('keydown', toggleMenuEvent);
